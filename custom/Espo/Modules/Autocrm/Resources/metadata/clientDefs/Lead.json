@@ -1,0 +1,14 @@
+{
+    "detailActionList": [
+        "__APPEND__",
+        {
+            "label": "Najít kontakty",
+            "name": "test",
+            "acl": "edit",
+            "handler": "autocrm:my-action-handler",
+            "initFunction": "initTest",
+            "checkVisibilityFunction": "isTestVisible",
+            "actionFunction": "test"
+        }
+    ]
+}
